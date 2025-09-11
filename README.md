@@ -24,6 +24,8 @@ If you just want an on-demand import example `manually`, you can check [unplugin
 
 If you want to a nuxt starter, see [element-plus-nuxt-starter](https://github.com/element-plus/element-plus-nuxt-starter/).
 
+## Node环境
+需要Node22+版本
 ## Project setup
 
 ```bash
