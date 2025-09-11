@@ -1,0 +1,11 @@
+// only scss variables
+// 自定义dark主题，用于覆盖默认的dark主题
+$--colors: (
+  'primary': (
+    'base': #589ef8
+  )
+);
+
+@forward 'element-plus/theme-chalk/src/dark/var.scss' with (
+  $colors: $--colors
+);
